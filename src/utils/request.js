@@ -6,7 +6,7 @@ const request = axios.create({
     baseURL: BASE_URL,
     headers: {
         'x-rapidapi-key': process.env.REACT_APP_RAPID_API_KEY,
-        'x-rapidapi-host': 'sportscore1.p.rapidapi.com',
+        'x-rapidapi-host': 'free-football-soccer-videos1.p.rapidapi.com',
     },
 });
 

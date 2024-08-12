@@ -1,14 +1,24 @@
-// import SportsList from './components/SportsList';
+import FootballHighlights from '~/components/FootballHighlight';
 import './App.css';
-import TeamsList from './components/TeamList';
+import { Typography } from '@mui/material';
 
-function App() {
+const App = () => {
     return (
         <div className="App">
-            {/* <SportsList /> */}
-            <TeamsList />
+            <Typography
+                variant="h3"
+                component="h3"
+                sx={{
+                    color: '#1976d2',
+                    fontWeight: 'bold',
+                    textAlign: 'center',
+                }}
+            >
+                Football Highlights
+            </Typography>
+            <FootballHighlights />
         </div>
     );
-}
+};
 
 export default App;
